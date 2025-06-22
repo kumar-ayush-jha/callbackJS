@@ -11,14 +11,13 @@ This tool reads content from a text file (like `example.txt`) and prints it to t
 ---
 
 ##  Modules Used
-|-----------------------------------------------------------------------------------------|
+
 | Module        | Purpose                                                                 |
 |---------------|-------------------------------------------------------------------------|
 | `fs`          | To perform file operations using callbacks                              |
 | `fs.promises` | To work with the modern Promise-based API                               |
 | `path`        | To safely resolve file paths relative to the script                     |
 | `util`        | To convert callback-based functions to Promise-based ones (`promisify`) |
-|-----------------------------------------------------------------------------------------|
 ---
 
 ## Features
